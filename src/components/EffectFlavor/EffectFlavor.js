@@ -6,7 +6,6 @@ const EffectFlavor = () => (
 <Grid>
     <Row>
         <Col xs={4} md={2}>
-            <h1>Effect</h1>
             <Panel bsStyle="info">
             <Panel.Heading>
               <Panel.Title componentClass="h3">Relaxed</Panel.Title>
@@ -103,7 +102,9 @@ const EffectFlavor = () => (
               </Panel.Heading>
             <Panel.Body>medical</Panel.Body>
             </Panel>
-            <Panel bsStyle="info">
+        </Col>
+        <Col xs={4} md={2}>
+             <Panel bsStyle="info">
               <Panel.Heading>
               <Panel.Title componentClass="h3">Uplifted</Panel.Title>
               </Panel.Heading>
@@ -201,7 +202,6 @@ const EffectFlavor = () => (
             </Panel>
         </Col>
         <Col xs={2} md={2}>
-            <h1>Flavor</h1>
             <Button bsStyle="warning">Earthy</Button>
             <Button bsStyle="warning">Chemical</Button>
             <Button bsStyle="warning">Pine</Button>
